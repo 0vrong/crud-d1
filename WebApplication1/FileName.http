@@ -1,0 +1,23 @@
+GET https://localhost:7298/
+
+###
+
+POST https://localhost:7298/add
+Content-Type: application/json
+{
+  "name": "NewCharacter",
+  "role": "Warrior",
+  "lvl": 1
+}
+
+###
+
+PUT https://localhost:7298/potato
+Content-Type: application/json
+{
+  "role": "Warrior",
+  "lvl": 1
+}
+
+###
+DELETE https://localhost:7298/delete/potato
